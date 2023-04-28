@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/transfers.css" />
+    <title>Transfers</title>
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <form action="#" class="form">
+        <div class="img">
+          <img src="/utilities/bank.png" alt="icon" class="logo" />
+        </div>
+        <h1>Transferences</h1>
+
+        <div class="container">
+          <div class="columns">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name of Who Receives"
+            />
+
+            <input
+              type="text"
+              id="account"
+              name="account"
+              placeholder="Account Number"
+            />
+
+            <label for="type">Bank</label>
+            <select name="type" id="type">
+              <option value="">Options</option>
+              <option value="bbc">BBC</option>
+              <option value="bancolombia">Bancolombia</option>
+              <option value="agrario">Banco Agrario</option>
+            </select>
+          </div>
+
+          <div class="columns">
+            <input type="email" id="email" name="email" placeholder="Email" />
+
+            <label for="type">Type of Account</label>
+            <select name="type" id="type">
+              <option value="options">Options</option>
+              <option value="savings">Savings Account</option>
+              <option value="checking">Checking Account</option>
+            </select>
+
+            <label for="transfer">Transfer Amount</label>
+            <input type="text" id="transfer" name="transfer" />
+          </div>
+        </div>
+
+        <input type="submit" value="Make Transfer" />
+        <input type="button" value="Back" />
+      </form>
+    </main>
+
+    <footer>
+      <p>Developer - Santiago Jaramillo</p>
+      <p>Teacher - Albeiro Muriel</p>
+      <p>CESDE</p>
+    </footer>
+  </body>
+</html>
